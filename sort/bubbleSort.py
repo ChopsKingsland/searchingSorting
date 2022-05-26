@@ -1,7 +1,6 @@
 data = [24, 25, 30, 46, 87, 44, 82, 21, 95, 52, 45, 73, 71, 26, 92, 97, 41, 80, 9, 98]
 
 def swapPositions(list, pos1, pos2):
-     
     list[pos1], list[pos2] = list[pos2], list[pos1]
     return list
 
